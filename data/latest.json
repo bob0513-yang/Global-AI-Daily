@@ -1,230 +1,113 @@
 {
-  "date": "2025-08-07",
-  "edition_type": "verified_demo",
-  "summary": "官方新闻演示日报：覆盖模型、智能体、编程工具与研究。每条新闻日期按原始发布公告记录。",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T13:27:08.546397+00:00",
+  "edition_type": "rss",
+  "summary": "采集 7 条资讯；窗口 72 小时。",
   "news": [
     {
-      "id": "openai-gpt5-20250807",
-      "title_zh": "OpenAI 发布 GPT-5：统一快速响应与深度推理能力",
-      "title_original": "Introducing GPT-5",
-      "published_at": "2025-08-07T00:00:00Z",
+      "id": "b2263e9f8412",
+      "title_zh": "nemotron-halloween",
+      "title_original": "nemotron-halloween",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "category": "AI 开源项目",
+      "importance": "medium",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    },
+    {
+      "id": "4a4bcbde667c",
+      "title_zh": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "title_original": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "published_at": "2026-10-30T15:00:10+00:00",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "category": "AI 硬件与算力",
+      "importance": "medium",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    },
+    {
+      "id": "25cc4c9bb2e3",
+      "title_zh": "Making it easier for websites to express AI training preferences",
+      "title_original": "Making it easier for websites to express AI training preferences",
+      "published_at": "2026-10-30T09:30:00+00:00",
       "source": "OpenAI 官方博客",
-      "url": "https://openai.com/index/introducing-gpt-5/",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "category": "AI 大模型",
       "importance": "high",
-      "status": "正式发布",
-      "summary_zh": "OpenAI 正式发布 GPT-5，并将其描述为一个统一系统：日常问题由快速模型处理，复杂任务可触发更深入的推理，并由路由机制选择合适路径。官方介绍其在编码、数学、写作、健康和视觉理解等方面的改进，并说明不同订阅层级的可用方式。该发布反映出前沿模型产品正从单一模型切换到按任务动态分配能力的系统设计。",
-      "highlights": [
-        "采用快速响应与深度推理相结合的统一系统",
-        "官方介绍编码、数学、写作和视觉等能力改进",
-        "按订阅层级提供不同使用额度与 GPT-5 pro"
-      ],
-      "impact": "模型能力开始以系统级路由和体验整合呈现，企业评估重点也会从单项基准转向复杂工作流中的稳定性、延迟与成本。",
-      "keywords": [
-        "GPT-5",
-        "推理",
-        "大模型",
-        "OpenAI"
-      ]
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
     },
     {
-      "id": "openai-agent-tools-20250311",
-      "title_zh": "OpenAI 发布构建智能体的新工具与 Responses API",
-      "title_original": "New tools for building agents",
-      "published_at": "2025-03-11T00:00:00Z",
+      "id": "c7606af40dbb",
+      "title_zh": "Community safety report and new protections for teens",
+      "title_original": "Community safety report and new protections for teens",
+      "published_at": "2026-10-30T09:00:00+00:00",
       "source": "OpenAI 官方博客",
-      "url": "https://openai.com/index/new-tools-for-building-agents/",
-      "category": "AI 编程工具",
-      "importance": "medium",
-      "status": "正式发布",
-      "summary_zh": "OpenAI 发布面向开发者的智能体构建工具，核心包括 Responses API 与内置工具，旨在帮助应用执行多步骤任务。Responses API 将模型响应与工具调用组合到一个接口中，开发者可据此构建能够检索信息、操作工具并持续推进任务的应用。官方同时介绍了用于可视化和评估智能体流程的配套能力，反映出模型平台正在补齐从调用到调试的开发环节。",
-      "highlights": [
-        "推出面向智能体应用的 Responses API",
-        "提供内置工具以支持多步骤任务",
-        "补充流程可视化和评估能力"
-      ],
-      "impact": "更完整的开发接口降低了智能体原型的编排成本，也让工具调用可靠性和运行监控成为平台竞争重点。",
-      "keywords": [
-        "Responses API",
-        "Agent",
-        "开发者工具"
-      ]
-    },
-    {
-      "id": "anthropic-claude4-20250522",
-      "title_zh": "Anthropic 发布 Claude 4 系列，强化编程与智能体能力",
-      "title_original": "Introducing Claude 4",
-      "published_at": "2025-05-22T12:00:00Z",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/claude-4",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "category": "AI 大模型",
       "importance": "high",
-      "status": "正式发布",
-      "summary_zh": "Claude Opus 4 和 Claude Sonnet 4 面向复杂编程、推理和智能体工作流。Anthropic 同时介绍扩展思考与工具使用等能力，并称模型可以并行调用工具。",
-      "highlights": [
-        "Claude Opus 4 与 Sonnet 4 同步发布",
-        "加入扩展思考与工具使用（测试版）",
-        "支持并行工具调用"
-      ],
-      "impact": "Claude 4 将模型能力与长任务执行结合，推动编程助手向可持续推进复杂任务的智能体形态发展。",
-      "keywords": [
-        "AI 大模型",
-        "Anthropic"
-      ]
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
     },
     {
-      "id": "meta-ai-app-20250429",
-      "title_zh": "Meta 推出独立 Meta AI 应用，基于 Llama 4",
-      "title_original": "Introducing the Meta AI App: A New Way to Access Your AI Assistant",
-      "published_at": "2025-04-29T12:00:00Z",
-      "source": "Meta Newsroom",
-      "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
+      "id": "d2282bcce162",
+      "title_zh": "Fair use benefits everyone",
+      "title_original": "Fair use benefits everyone",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source": "OpenAI 官方博客",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
       "category": "AI 大模型",
-      "importance": "medium",
-      "status": "正式发布",
-      "summary_zh": "Meta 宣布推出独立 Meta AI 应用，底层采用 Llama 4。应用提供语音对话与 Discover 内容流，并可连接 Meta AI 眼镜及 meta.ai。首发功能按地区开放，公告说明部分个性化能力先在美国和加拿大提供。",
-      "highlights": [
-        "发布独立的 Meta AI 助手应用",
-        "采用 Llama 4，支持语音交互",
-        "提供 Discover 发现内容流"
-      ],
-      "impact": "独立应用为 Meta AI 增加专属入口，也将其与社交平台、网页和智能眼镜体验连接。",
-      "keywords": [
-        "AI 大模型",
-        "Meta Newsroom"
-      ]
-    },
-    {
-      "id": "meta-vjepa2-20250611",
-      "title_zh": "Meta 发布 V-JEPA 2 世界模型，探索物理场景预测",
-      "title_original": "Our New Model Helps AI Think Before it Acts",
-      "published_at": "2025-06-11T12:00:00Z",
-      "source": "Meta Newsroom",
-      "url": "https://about.fb.com/news/2025/06/our-new-model-helps-ai-think-before-it-acts/",
-      "category": "AI 研究与论文",
       "importance": "high",
-      "status": "正式发布",
-      "summary_zh": "Meta 介绍 V-JEPA 2 世界模型，通过视频训练以理解物理环境并预测动作可能带来的结果。官方称该模型面向机器人和能够在现实环境中行动的智能体，并同时发布三项用于评估物理推理的基准。",
-      "highlights": [
-        "以视频训练世界模型",
-        "聚焦物理环境理解与结果预测",
-        "同步推出三项评估基准"
-      ],
-      "impact": "世界模型研究将智能体从数字界面拓展到物理环境，评估基准有助于比较其预测与规划能力。",
-      "keywords": [
-        "AI 研究与论文",
-        "Meta Newsroom"
-      ]
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
     },
     {
-      "id": "deepmind-alphaearth-20250730",
-      "title_zh": "DeepMind 发布 AlphaEarth Foundations 地球观测模型",
-      "title_original": "AlphaEarth Foundations helps map our planet in unprecedented detail",
-      "published_at": "2025-07-30T12:00:00Z",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
-      "category": "AI 研究与论文",
-      "importance": "high",
-      "status": "正式发布",
-      "summary_zh": "Google DeepMind 介绍 AlphaEarth Foundations，将其定位为用于地球观测的 AI 模型，能够整合卫星与其他地理空间数据，生成地表信息表征。官方称研究人员和组织可通过相关数据产品分析地球变化，应用于环境监测和资源管理。",
-      "highlights": [
-        "整合多类地理空间观测数据",
-        "用于分析地表随时间变化",
-        "面向环境与资源研究应用"
-      ],
-      "impact": "基础模型开始进入地球科学数据领域，可能降低跨来源遥感信息分析的门槛。",
-      "keywords": [
-        "AI 研究与论文",
-        "Google DeepMind"
-      ]
-    },
-    {
-      "id": "anthropic-web-search-api-20250320",
-      "title_zh": "Anthropic 为 Claude API 增加网页搜索能力",
-      "title_original": "Introducing web search on the Anthropic API",
-      "published_at": "2025-03-20T12:00:00Z",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/web-search-api",
-      "category": "AI Agent 与自动化",
-      "importance": "medium",
-      "status": "正式发布",
-      "summary_zh": "Anthropic 宣布 Claude API 支持网页搜索工具，使模型能够在回答中检索网络信息并提供引用。该功能让开发者可以为应用配置实时网络检索流程，帮助模型处理训练数据之后的新信息。具体可用性和额度以官方文档为准。",
-      "highlights": [
-        "API 提供网页搜索工具",
-        "回答可附带网页引用",
-        "面向需要较新信息的应用"
-      ],
-      "impact": "检索工具把模型生成与外部信息获取结合起来，来源引用也为应用核验回答提供了入口。",
-      "keywords": [
-        "AI Agent 与自动化",
-        "Anthropic"
-      ]
-    },
-    {
-      "id": "anthropic-agent-tools-20250522",
-      "title_zh": "Anthropic 更新 API 智能体构建能力",
-      "title_original": "New capabilities for building agents on the Anthropic API",
-      "published_at": "2025-05-22T12:00:00Z",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/new-capabilities-for-building-agents",
-      "category": "AI 编程工具",
-      "importance": "medium",
-      "status": "正式发布",
-      "summary_zh": "Anthropic 公布面向 API 开发者的智能体功能更新，围绕工具调用、任务执行和构建体验提供能力。公告与 Claude 4 发布同期，目标是帮助开发者构建能够调用外部工具并完成多步骤工作的应用。",
-      "highlights": [
-        "增强 API 智能体开发能力",
-        "支持工具调用工作流",
-        "面向多步骤应用构建"
-      ],
-      "impact": "模型供应商持续将工具编排能力下沉到 API 层，开发者可减少自建智能体基础设施的工作。",
-      "keywords": [
-        "AI 编程工具",
-        "Anthropic"
-      ]
-    },
-    {
-      "id": "openai-gpt5-dev-20250807",
-      "title_zh": "OpenAI 面向开发者发布 GPT-5 API",
-      "title_original": "Introducing GPT-5 for developers",
-      "published_at": "2025-08-07T12:00:00Z",
+      "id": "7bf0065ceb16",
+      "title_zh": "An updated Model Spec for more capable and beneficial AI",
+      "title_original": "An updated Model Spec for more capable and beneficial AI",
+      "published_at": "2026-10-29T17:00:00+00:00",
       "source": "OpenAI 官方博客",
-      "url": "https://openai.com/index/introducing-gpt-5-for-developers/",
-      "category": "AI 编程工具",
+      "url": "https://openai.com/index/updated-model-spec",
+      "category": "AI 大模型",
       "importance": "high",
-      "status": "正式发布",
-      "summary_zh": "OpenAI 面向开发者发布 GPT-5 API，重点介绍编码和智能体任务表现，并提供模型调用方式。官方文章列出 SWE-bench Verified 与 Aider polyglot 等内部评测结果；这些数字属于厂商发布的基准数据，实际表现仍应结合具体任务验证。",
-      "highlights": [
-        "GPT-5 开放 API 调用",
-        "官方强调代码生成与智能体任务",
-        "发布多项编码基准成绩"
-      ],
-      "impact": "模型 API 发布让开发者能够将新一代推理能力集成到编程产品和自动化工作流中。",
-      "keywords": [
-        "AI 编程工具",
-        "OpenAI 官方博客"
-      ]
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
     },
     {
-      "id": "openai-operator-20250123",
-      "title_zh": "OpenAI 发布 Operator 浏览器操作研究预览",
-      "title_original": "Introducing Operator",
-      "published_at": "2025-01-23T12:00:00Z",
-      "source": "OpenAI 官方博客",
-      "url": "https://openai.com/index/introducing-operator/",
-      "category": "AI Agent 与自动化",
+      "id": "f3538b6fb36f",
+      "title_zh": "Granite Switch 4.1.1 — Update models like you update software",
+      "title_original": "Granite Switch 4.1.1 — Update models like you update software",
+      "published_at": "2026-10-29T13:37:07+00:00",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "category": "AI 开源项目",
       "importance": "medium",
-      "status": "研究预览",
-      "summary_zh": "OpenAI 发布 Operator 研究预览，这是能够使用自己的浏览器代表用户执行网页任务的智能体。官方说明它可以通过输入、点击和滚动操作网站，并指出当时版本存在局限，属于面向部分用户的研究预览。",
-      "highlights": [
-        "使用浏览器界面执行网页任务",
-        "支持输入、点击和滚动操作",
-        "发布时为研究预览"
-      ],
-      "impact": "浏览器操作将智能体从文本和 API 扩展到现有网站界面，也带来可靠性与权限控制要求。",
-      "keywords": [
-        "AI Agent 与自动化",
-        "OpenAI 官方博客"
-      ]
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
     }
   ]
 }
