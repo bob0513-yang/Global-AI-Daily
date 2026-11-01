@@ -1,0 +1,56 @@
+name: Update Global AI Daily
+
+on:
+  schedule:
+    # 08:00 China Standard Time (UTC+8) = 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news-update
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect and write today's edition
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_BASE_URL: ${{ vars.AI_API_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+        run: python scripts/update_daily.py
+
+      - name: Sync published JSON and archives
+        run: rsync -a data/ hostinger-upload/data/
+
+      - name: Commit updated news for Hostinger auto-deploy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/editions.json data/news data/archive hostinger-upload/data
+          if git diff --cached --quiet; then
+            echo "No data changes to publish."
+          else
+            git commit -m "chore: update AI daily edition"
+            git push origin HEAD:main
+          fi
+
+      - name: Publish static-only branch for Hostinger
+        run: |
+          git subtree split --prefix=hostinger-upload -b hostinger-deploy
+          git push origin hostinger-deploy --force

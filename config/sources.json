@@ -1,0 +1,12 @@
+{
+  "feeds": [
+    {"name":"OpenAI 官方博客","url":"https://openai.com/news/rss.xml","default_category":"AI 大模型","importance":"high"},
+    {"name":"Google DeepMind","url":"https://deepmind.google/blog/rss.xml","default_category":"AI 研究与论文","importance":"high"},
+    {"name":"Hugging Face Blog","url":"https://huggingface.co/blog/feed.xml","default_category":"AI 开源项目","importance":"medium"},
+    {"name":"NVIDIA Blog","url":"https://blogs.nvidia.com/blog/category/generative-ai/feed/","default_category":"AI 硬件与算力","importance":"medium"}
+  ],
+  "lookback_hours": 24,
+  "fallback_hours": 72,
+  "max_items": 30,
+  "categories": ["AI 大模型","AI 编程工具","AI Agent 与自动化","AI 图像生成","AI 视频生成","AI 开源项目","AI 商业与融资","AI 行业趋势","AI 硬件与算力","AI 研究与论文"]
+}
