@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T05:01:46.260640+00:00",
+  "edition_type": "rss",
+  "summary": "采集 5 条资讯；窗口 24 小时。",
+  "news": [
+    {
+      "id": "a2d076a923d2",
+      "title_zh": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "title_original": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "published_at": "2026-11-06T22:20:20+00:00",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+      "category": "AI 硬件与算力",
+      "importance": "high",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    },
+    {
+      "id": "ee3ebb0cf1a0",
+      "title_zh": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+      "title_original": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+      "published_at": "2026-11-06T18:03:26+00:00",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
+      "category": "AI 硬件与算力",
+      "importance": "high",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    },
+    {
+      "id": "df1346203ff0",
+      "title_zh": "v2.1.319",
+      "title_original": "v2.1.319",
+      "published_at": "2026-11-06T17:04:01+00:00",
+      "source": "Anthropic Claude Code 官方 Releases",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "category": "AI 编程工具",
+      "importance": "medium",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    },
+    {
+      "id": "be1ba71e55b7",
+      "title_zh": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "category": "AI 开源项目",
+      "importance": "medium",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    },
+    {
+      "id": "bc8f9eac1966",
+      "title_zh": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "source": "OpenAI 官方博客",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "category": "AI 大模型",
+      "importance": "high",
+      "status": "来源 RSS 发布",
+      "summary_zh": "摘要待生成：当前未配置 AI_API_KEY，请阅读原文。",
+      "highlights": [],
+      "impact": "",
+      "keywords": []
+    }
+  ]
+}
